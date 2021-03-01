@@ -1,0 +1,79 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+body {
+    background-color: #cce3de;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#navbar {
+background-color: transparent;
+}
+
+#navbarCollapse {
+font-weight: bold;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+footer{
+  color: #000000;
+}
+#heading {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding-left: 150px;
+  max-height: 1000px;
+  animation: fadein 4s;
+  color: #f6fff8 !important;
+} 
+
+@media screen and (max-width:780px) {#heading {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding-left: 50px;
+  max-height: 1000px;
+  animation: fadein 4s;
+} 
+
+
+/* h1, h3 {
+
+} */
+/* 
+@media screen and (max-width: 480px) {
+  html, body {
+    min-width: 320px;
+  }
+} */
+
+.text-one {
+  color:#f6fff8 !important;
+}
+.text-two {
+  color: #eaf4f4 !important;
+}
+.text-three {
+  color: #cce3de !important;
+}
+.text-four {
+  color: #a4c3b2 !important;
+}
+.text-five {
+  color: #6b9080 !important;
+}
